@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2bb38f"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="5dp" >
+
+	<ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/logo"
+	    android:layout_alignParentTop="true"
+	    android:contentDescription="@string/logoAlt"
+	     />
+
+    	<LinearLayout
+    	    android:layout_width="181dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="130dp" >
+
+    	    <TextView
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:text="Table "
+    	        android:textSize="20sp" />
+
+    	    <TextView
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:text=" ready:"
+    	        android:textSize="20sp" />
+
+    	    <requestFocus />
+
+    	    <EditText
+    	        android:id="@+id/editText1"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_marginLeft="10dp"
+    	        android:layout_weight="2.43"
+    	        android:inputType="numberSigned"
+    	        android:paddingTop="5dp" >
+
+    	    </EditText>
+    	</LinearLayout>
+
+    	<Button
+    	    android:id="@+id/sendOrder"
+    	    style="@style/homeButtons"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="20dp"
+    	    android:drawableTop="@drawable/sendorder"
+    	    android:gravity="center"
+    	    android:text="@string/Send" />
+   
+</LinearLayout>
