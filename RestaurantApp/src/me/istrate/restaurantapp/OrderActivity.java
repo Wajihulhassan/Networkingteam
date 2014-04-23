@@ -80,6 +80,7 @@ public class OrderActivity extends Activity {
 		});	
 	}
 	public class SendOrder implements Runnable {
+		/// Added new comment
 		public String order ;
 		public SendOrder(String str) {
 			order = str;
